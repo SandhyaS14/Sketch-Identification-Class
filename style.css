@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: #fd0fed;
+    padding: 5px;
+}
+
+#show {
+    float: right;
+}
+
+h1 {
+    background-color: #ff0050;
+}
+
+canvas {
+    background-color: white;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes canvas {
+    0% {box-shadow: 1px 1px 30px gray;}
+    50% {box-shadow: 1px 1px 30px white;}
+    100% {box-shadow: 1px 1px 30px gray;}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
